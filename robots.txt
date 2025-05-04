@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://annejosiane-kouam.github.io/sitemap.xml
+Sitemap: https://aj-kouam.github.io/sitemap.xml

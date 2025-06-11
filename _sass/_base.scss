@@ -980,6 +980,11 @@ progress::-moz-progress-bar {
   display: block;
 }
 
+body {
+  font-family: var(--global-font-family);
+}
+
+
 .progress-bar {
   background-color: var(--global-theme-color);
   width: 0%;

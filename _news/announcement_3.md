@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-03-01
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+ Our paper *“The Silent Signature: Behavior-based User Exposure in Mobility Data”* is accepted to [MDM 2025](https://mdm2025.github.io/AcceptedPapers.html#main). Congrats to Lucas Felix for leading this exciting work!

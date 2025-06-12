@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Publications across all categories, i.e., national and international conferences, journals, workshops and preprints.
+description: Publications across all categories, i.e., national and international conferences, journals, workshops, preprints, and datasets.
 nav: true
 nav_order: 2
 ---

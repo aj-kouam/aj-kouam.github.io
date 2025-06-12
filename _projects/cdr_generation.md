@@ -4,7 +4,7 @@ title: Generating Mobile Datasets via Joint Modeling of Mobility and Traffic
 description: 
 img: assets/img/cdr_usefulness.png
 importance: 3
-category: work
+category: projects
 ---
 
 To overcome the privacy and accessibility limitations of real-world mobile datasets, we developed **Zen**, the first framework to synthesize realistic Call Detail Records (CDRs) that jointly model human mobility and traffic behaviors. Zen simulates urban mobility using enhanced Working Day Mobility (En-WDM) models, integrates social interactions, and leverages LSTM-based generative models to produce realistic app usage and call activity.

@@ -4,7 +4,7 @@ title: Modeling and Mitigating SIMBox Fraud in Cellular Networks
 description: 
 img: assets/img/simbox_fraud_cube.png
 importance: 1
-category: work
+category: projects
 related_publications: true
 ---
 

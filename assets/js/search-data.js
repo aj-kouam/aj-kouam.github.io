@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Publications across all categories, i.e., national and international conferences, journals, workshops and preprints.",
+          description: "Publications across all categories, i.e., national and international conferences, journals, workshops, preprints, and datasets.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";

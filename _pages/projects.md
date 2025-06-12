@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /projects/
-description: 
+description:
 nav: true
 nav_order: 3
 display_categories: [projects, code & datasets]
@@ -18,7 +18,6 @@ My research centers on **mobile security and privacy** within wireless and cellu
 **3. Mobile Users Privacy Protection**: Exploring privacy vulnerabilities arising from behavioral data and permission-less sensors, and designing novel, effective countermeasures to safeguard mobile users against adversarial tracking and information leakage.
 
 Below are some projects I have been working on within this framework along with related code and datasets:
-
 
 <!-- pages/projects.md -->
 <div class="projects">

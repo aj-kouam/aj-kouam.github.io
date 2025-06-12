@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Generating Mobile Datasets via Joint Modeling of Mobility and Traffic
-description: 
+description:
 img: assets/img/cdr_usefulness.png
 importance: 3
 category: projects

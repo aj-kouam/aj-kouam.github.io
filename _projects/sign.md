@@ -1,7 +1,7 @@
 ---
 layout: page
 title: SIMBox Detection via Authentication Latency Fingerprinting
-description: 
+description:
 img: assets/img/sign_latency_visual.png
 importance: 2
 category: projects

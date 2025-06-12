@@ -8,10 +8,9 @@ profile:
   align: left
   image: josiane_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: 
-      <p>Inria Saclay, TRIBE team</p>
-      <p>1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau</p>
-      <p><a href="mailto:anne-josiane.kouam@inria.fr">anne-josiane.kouam@inria.fr</a></p>
+  more_info: <p>Inria Saclay, TRIBE team</p>
+    <p>1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau</p>
+    <p><a href="mailto:anne-josiane.kouam@inria.fr">anne-josiane.kouam@inria.fr</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

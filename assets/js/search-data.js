@@ -128,6 +128,26 @@ ninja.data = [{
           description: "STIC-AmSud LINT project exploring AI-based modeling and synthesis of complete mobile datasets with privacy guarantees.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cdr_generation/";
+            },},{id: "projects-en-wdm-mobility-model",
+          title: 'En-WDM Mobility Model',
+          description: "Enhanced Working Day Mobility simulator for generating mobility-rich mobile datasets.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_en_wdm/";
+            },},{id: "projects-fraudzen-simulator",
+          title: 'FraudZen Simulator',
+          description: "Simulator for traffic and mobility of legitimate and SIMBox users in cellular networks.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_fraudzen/";
+            },},{id: "projects-msmdf-dataset",
+          title: 'MSMDF Dataset',
+          description: "Motion sensor fingerprinting dataset collected across 42 smartphones under diverse conditions.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_msmdf/";
+            },},{id: "projects-sign-latency-based-simbox-detection",
+          title: 'SigN: Latency-Based SIMBox Detection',
+          description: "Dataset and scripts for SIMBox latency anomaly detection at the cellular edge.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_sign/";
             },},{id: "projects-machine-learning-for-offensive-computer-security-malfoy",
           title: 'Machine Learning for Offensive Computer Security (MALFOY)',
           description: "ERC-funded research exploring how ML can be misused by attackers to reveal vulnerabilities and build automated threats.",

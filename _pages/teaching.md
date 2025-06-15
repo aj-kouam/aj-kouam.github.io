@@ -33,7 +33,6 @@ I had the opportunity to interact with students from several institutions throug
 - (2022) **[Session Chair – Machine Learning in and of Networks](https://conferences2.sigcomm.org/co-next/2022/#!/workshop-student)**, ACM CoNEXT 2022 Student Workshop, Rome, Italy.
 - (2020) **[Feedback Days](https://sites.google.com/view/retourxpenspygi2020/accueil)**, ENSPY Cameroon: Two-day scientific workshop with problem-solving sessions.
 
-
 #### Program Committee Membership
 
 - **2025**: [WiMob'25](http://www.wimob.org/wimob2025/committees.php), [TMA'25](https://hotcrp.dacs.utwente.nl/tma2025/users/pc),[PAM'25](https://udesa.edu.ar/committees),[Algotel&Cores'25](https://algotelcores2025.limos.fr/users/pc) _(French national)_
@@ -44,6 +43,7 @@ I had the opportunity to interact with students from several institutions throug
 #### Journal Reviewing
 
 Reviewer for five international journals:
+
 - IEEE/ACM Transactions on Mobile Computing (Q1)
 - IEEE Open Journal of the Communications Society (Q1)
 - [EPJ Data Science](https://orcid.org/0000-0002-8803-6256) (Q1)

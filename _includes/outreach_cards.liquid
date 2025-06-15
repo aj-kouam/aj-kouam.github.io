@@ -49,25 +49,25 @@
 </style>
 
 <div class="outreach-grid">
-  {% assign sorted_outreach = site.data.outreach | sort: "date" | reverse %}
+  {% assign sorted_outreach = site.data.outreach | sort: 'date' | reverse %}
   {% for item in sorted_outreach %}
     <div class="outreach-card">
       {% if item.link %}
-      <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
+        <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
       {% endif %}
-        {% if item.image %}
-          <img src="{{ item.image }}" alt="{{ item.title }}">
+      {% if item.image %}
+        <img src="{{ item.image }}" alt="{{ item.title }}">
+      {% endif %}
+      <div class="outreach-card-body">
+        <div class="outreach-card-title">{{ item.title }}</div>
+        <div class="outreach-card-date">{{ item.date | date: '%B %Y' }}</div>
+        <div class="outreach-card-text">{{ item.description }}</div>
+        {% if item.caption %}
+          <div class="outreach-card-caption">{{ item.caption }}</div>
         {% endif %}
-        <div class="outreach-card-body">
-          <div class="outreach-card-title">{{ item.title }}</div>
-          <div class="outreach-card-date">{{ item.date | date: "%B %Y" }}</div>
-          <div class="outreach-card-text">{{ item.description }}</div>
-          {% if item.caption %}
-            <div class="outreach-card-caption">{{ item.caption }}</div>
-          {% endif %}
-        </div>
+      </div>
       {% if item.link %}
-      </a>
+        </a>
       {% endif %}
     </div>
   {% endfor %}

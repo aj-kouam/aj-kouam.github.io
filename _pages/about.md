@@ -34,8 +34,6 @@ My research lies at the intersection of machine learning, security, and privacy,
 
 During my PhD, I conducted research internships at [Telecom Paris](https://www.researchgate.net/profile/Philippe-Martins) (cellular signaling experiments in a Faraday cage) and at [CNR Pisa](https://lucapappalardo.com/) (modeling and realistic generation of CDR/XDR data). I hold a degree in computer engineering (2019) from École Polytechnique of Yaoundé, Cameroon.
 
-
 **Research interests**: Mobile network security & privacy, AI for communication systems, user modeling, attack detection & prevention.
 
 **More detailed information**: [My CV]({{ '/assets/pdf/Anne_Josiane_Kouam_CV.pdf' | relative_url }}) (last updated on June 2025)
-

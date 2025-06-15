@@ -5,6 +5,7 @@ description: STIC-AmSud LINT project exploring AI-based modeling and synthesis o
 img: assets/img/cdr_usefulness.png
 importance: 2
 category: projects
+related_publications: true
 ---
 
 ### Overview

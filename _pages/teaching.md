@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching & Outreach
-description: Overview of my teaching experiences and outreach initiatives.
+title: Teaching & Service
+description: Overview of my teaching experiences and scientific service to the community.
 nav: true
 nav_order: 6
 ---
@@ -23,24 +23,36 @@ I had the opportunity to interact with students from several institutions throug
 
 ---
 
-### Outreach Activities
+### Scientific Service
 
-I like sharing my research with a wider audience, especially with the hope of encouraging young girls to get interested in computer science. See below some highlights of my outreach efforts:
+#### Conference & Event Organization
 
-##### Vulgarization Productions for the General Public
+- (2025) **[NetMob 2025](https://netmob.org/www25/)**: Data Challenge co-organizer; TPC Co-Chair, Web-Chair, Publication Chair. See the [Data Challenge page](https://netmob.org/www25/datachallenge).
+- (2024) **[FraudZen Hackathon](https://aj-kouam.github.io/fraudzen-hackathon/)**, UY1 Cameroon: Hackathon Co-organizer and Chair.
+- (2022) **[Computer Science Workshop](https://scienceprojectscmr.github.io/index.html)**, ENSPY Cameroon: Co-organizer; included a "Women in CS" session.
+- (2022) **[Session Chair – Machine Learning in and of Networks](https://conferences2.sigcomm.org/co-next/2022/#!/workshop-student)**, ACM CoNEXT 2022 Student Workshop, Rome, Italy.
+- (2020) **[Feedback Days](https://sites.google.com/view/retourxpenspygi2020/accueil)**, ENSPY Cameroon: Two-day scientific workshop with problem-solving sessions.
 
-- [**Video Production**: Explained Wireless Communications](https://www.youtube.com/watch?v=c115EBcYlXw), Paris-Saclay Science Festival (2021).
 
-##### Talks and Panels for the General Public
+#### Program Committee Membership
 
-- (Jun 2025) _Panelist_ at the inauguration of the [**Just Do Maths** exposition at Inria Saclay](https://www.universite-paris-saclay.fr/evenements/ exposition-just-do-maths-de-debut-juin-mi-juillet-2025-au-centre-inria-de-saclay).
-- (Dec 2024) [**Invited Talk** – ZTF Awards 2024](https://www.youtube.com/live/Fp3WFkqfOB0?t=11038s), Cameroon. Reached 4000+ students. _Topic: Mobile Human Behavior: Accessibility, Leveraging, and Addressing Privacy Risks._
-- (Dec 2022) _Panelist_, [**Women in CS Session** – Ecole Polytechnique Yaoundé](https://scienceprojectscmr.github.io/index.html): Discussed career paths and research with undergraduates.
-- (Mar 2021) Talk at _Semaine des Mathématiques_, Académie de Créteil: Presented the job of a researcher and the Inria Institute.
-- (Oct 2021) [**Stand Animation** – Science Festival, Institut Polytechnique Paris](https://www.youtube.com/watch?v=JCymZZ1QyZU): Demonstrated algorithms and encryption for the public.
+- **2025**: [WiMob'25](http://www.wimob.org/wimob2025/committees.php), [TMA'25](https://hotcrp.dacs.utwente.nl/tma2025/users/pc),[PAM'25](https://udesa.edu.ar/committees),[Algotel&Cores'25](https://algotelcores2025.limos.fr/users/pc) _(French national)_
 
-##### Vulgarization Workshops Co-organization
+- **2024**:[ACSAC'24](https://www.acsac.org/2024/committees/program/) _(A-ranked)_, [WiMob'24](http://wimob.org/wimob2024/committees.php), [ICNS'24](https://www.iaria.org/conferences2024/ComICNS24.html), [EuroDW'24](https://2024.eurosys.org/euroDW.html) _(Workshop)_
 
-- (Nov 2024) **Workshop Organizer**, _Math & CS Club – Lycée d’Elig-Essono_: Co-organized a 3-hour workshop under Animath and PromoMaths with talks on being a researcher and modeling mobility with Markov Chains.
-- (Apr 2024) **Workshop Leader**, ["Mädchen Zukunftstag", TU Berlin](https://www.girls-day.de/.oO/Show/technische-universitaet-berlin.1/ein-tag-mit-der-tu-berlin-was-ist-informatik-von-der-app-auf-dem-smartphone-zum-ersten-eigenen-game): Led a workshop for 7th–9th grade girls on “What is CS?” with unplugged + Python programming sessions.
-- (2021 & 2022) **Workshop Leader**, ["RJMI" – Rendez-vous des Jeunes Filles Mathématiciennes et Informaticiennes](https://filles-et-maths.fr/evenements/rjmi-2021-inria-saclay-419/), Inria Saclay: Ran a 2-day program for 25 selected girls in Math and CS.
+- **2023**: [ICNS'23](https://www.iaria.org/conferences2023/ComICNS23.html)
+
+- **2021**: [Algotel&Cores'21](https://shadowpc-rsd.cnrs.fr/edition-2021/program-committee/) _(**Shadow PC**, French national)_
+
+#### Journal Reviewing
+
+Reviewer for five international journals:
+- IEEE/ACM Transactions on Mobile Computing (Q1)
+- IEEE Open Journal of the Communications Society (Q1)
+- [EPJ Data Science](https://orcid.org/0000-0002-8803-6256) (Q1)
+- [Annals of Telecommunications](https://orcid.org/0000-0002-8803-6256) (Q2)
+- IEEE Transactions on Network and Service Management (Q1) _(as sub-reviewer)_
+
+<!-- #### Science Communication
+
+- **2020–2021**: Scientific Popularization Mission at Inria Saclay – 32 working days of outreach and dissemination activities. -->

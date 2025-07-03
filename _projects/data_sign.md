@@ -1,8 +1,8 @@
 ---
 layout: page
-title: "SigN: Latency-Based SIMBox Detection"
+title: "SigN Dataset"
 description: Dataset and scripts for SIMBox latency anomaly detection at the cellular edge.
-redirect: https://gitlab.inria.fr/simbox-fraud-mitigation/sign
+redirect: https://entrepot.recherche.data.gouv.fr/dataset.xhtml?persistentId=doi:10.57745/JBBBGO
 importance: 4
 category: code & datasets
 ---

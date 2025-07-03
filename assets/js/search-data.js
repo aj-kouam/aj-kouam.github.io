@@ -123,6 +123,9 @@ ninja.data = [{
           section: "News",},{id: "news-we-are-thrilled-to-launch-the-netmob-2025-data-challenge-explore-the-newly-released-dataset-and-join-the-community-in-tackling-exciting-mobility-and-privacy-research-questions-reference-paper-on-the-dataset-arxiv-2506-05903",
           title: 'We are thrilled to launch the NetMob 2025 Data Challenge! Explore the newly...',
           description: "",
+          section: "News",},{id: "news-glad-to-serve-as-part-of-the-tpc-of-aisec-2025",
+          title: 'Glad to serve as part of the TPC of AISec 2025.',
+          description: "",
           section: "News",},{id: "projects-privacy-preserving-generation-of-realistic-mobile-network-datasets",
           title: 'Privacy-Preserving Generation of Realistic Mobile Network Datasets',
           description: "STIC-AmSud LINT project exploring AI-based modeling and synthesis of complete mobile datasets with privacy guarantees.",
@@ -138,16 +141,21 @@ ninja.data = [{
           description: "Simulator for traffic and mobility of legitimate and SIMBox users in cellular networks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/code_fraudzen/";
+            },},{id: "projects-fraudzen-dataset",
+          title: 'FraudZen Dataset',
+          description: "Realistic mobile traffic traces with ground truth generated with the FraudZen simulator for benchmarking SIMBox fraud detection algorithms.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/data_fraudzen/";
             },},{id: "projects-msmdf-dataset",
           title: 'MSMDF Dataset',
           description: "Motion sensor fingerprinting dataset collected across 42 smartphones under diverse conditions.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/code_msmdf/";
-            },},{id: "projects-sign-latency-based-simbox-detection",
-          title: 'SigN: Latency-Based SIMBox Detection',
+              window.location.href = "/projects/data_msmdf/";
+            },},{id: "projects-sign-dataset",
+          title: 'SigN Dataset',
           description: "Dataset and scripts for SIMBox latency anomaly detection at the cellular edge.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/code_sign/";
+              window.location.href = "/projects/data_sign/";
             },},{id: "projects-machine-learning-for-offensive-computer-security-malfoy",
           title: 'Machine Learning for Offensive Computer Security (MALFOY)',
           description: "ERC-funded research exploring how ML can be misused by attackers to reveal vulnerabilities and build automated threats.",

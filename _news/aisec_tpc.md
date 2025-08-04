@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Glad to serve as part of the [TPC of AISec 2025](https://aisec25.hotcrp.com/u/1/users/pc).
+Glad to serve as part of the TPC of [AISec 2025](https://aisec25.hotcrp.com/u/1/users/pc), [WiMob 2025](http://www.wimob.org/WIMOB2025/committees.php) and [Netmob 2025](https://netmob.org/www25/#organizers). 

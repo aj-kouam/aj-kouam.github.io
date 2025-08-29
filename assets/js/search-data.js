@@ -126,7 +126,7 @@ ninja.data = [{
           section: "News",},{id: "news-glad-to-serve-as-part-of-the-tpc-of-aisec-2025-wimob-2025-and-netmob-2025",
           title: 'Glad to serve as part of the TPC of AISec 2025, WiMob 2025...',
           description: "",
-          section: "News",},{id: "news-represented-animath-international-at-the-festival-de-mathématiques-in-yaoundé-a-week-long-event-sponsored-by-animath-campus-france-and-organized-by-promo-maths-cameroon-i-gave-several-lectures-to-high-school-students-and-supported-the-miss-stem-cameroon-competition-celebrating-young-girls-talent-and-passion-for-science",
+          section: "News",},{id: "news-represented-animath-international-at-the-festival-de-mathématiques-in-yaoundé-a-week-long-event-sponsored-by-animath-campus-france-and-organized-by-promo-maths-cameroon",
           title: 'Represented Animath International at the Festival de Mathématiques in Yaoundé, a week-long event...',
           description: "",
           section: "News",},{id: "news-our-paper-beyond-aggregates-a-fine-grained-analysis-of-individual-mobility-and-traffic-dependencies-is-accepted-to-acm-ieee-mswim-2025",

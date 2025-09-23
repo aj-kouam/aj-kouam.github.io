@@ -35,6 +35,7 @@ I had the opportunity to interact with students from several institutions throug
 
 #### Program Committee Membership
 
+- **2026**: [AsiaCCS'26](https://asiaccs2026.cse.iitkgp.ac.in/program-committee/)
 - **2025**: [AISec'25](https://aisec25.hotcrp.com/u/1/users/pc), [WiMob'25](http://www.wimob.org/wimob2025/committees.php), [TMA'25](https://hotcrp.dacs.utwente.nl/tma2025/users/pc), [PAM'25](https://udesa.edu.ar/committees), [Algotel&Cores'25](https://algotelcores2025.limos.fr/users/pc) _(French national)_,
 - **2024**: [ACSAC'24](https://www.acsac.org/2024/committees/program/) _(A-ranked)_, [WiMob'24](http://wimob.org/wimob2024/committees.php), [ICNS'24](https://www.iaria.org/conferences2024/ComICNS24.html), [EuroDW'24](https://2024.eurosys.org/euroDW.html) _(Workshop)_
 - **2023**: [ICNS'23](https://www.iaria.org/conferences2023/ComICNS23.html)

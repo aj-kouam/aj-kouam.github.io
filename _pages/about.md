@@ -36,4 +36,8 @@ During my PhD, I conducted research internships at [Telecom Paris](https://www.r
 
 **Research interests**: Mobile network security & privacy, AI for communication systems, user modeling, attack detection & prevention.
 
-**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf?raw=true) (last updated on June 2025)
+**More detailed information**:
+<a href="https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf" target="_blank" rel="noopener">
+  My CV.
+</a>
+(last updated on June 2025)

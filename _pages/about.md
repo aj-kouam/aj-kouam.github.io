@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI · Privacy · Mobile Network Security · Mobile Data · User Modeling · Data Science · Behavioral Analysis
+subtitle:  User data privacy . Applications of machine learning for security & privacy . Mobile networking security & privacy . Adversarial machine learning . Behavioral analysis
 
 profile:
   align: left
@@ -34,12 +34,8 @@ My research lies at the intersection of machine learning, security, and privacy,
 
 During my PhD, I conducted research internships at [Telecom Paris](https://www.researchgate.net/profile/Philippe-Martins) (cellular signaling experiments in a Faraday cage) and at [CNR Pisa](https://lucapappalardo.com/) (modeling and realistic generation of CDR/XDR data). I hold a degree in computer engineering (2019) from École Polytechnique of Yaoundé, Cameroon.
 
-**Research interests**: Mobile network security & privacy, AI for communication systems, user modeling, attack detection & prevention.
+**Research interests**: User data privacy . Applications of machine learning for security & privacy . Mobile networking security & privacy . Adversarial machine learning . Behavioral analysis
+ 
 
-<!-- **More detailed information**:
-<a href="https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf" target="_blank" rel="noopener">
-  My CV.
-</a>
-(last updated on June 2025) -->
 
-**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on June 2025)
+**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on November 2025)

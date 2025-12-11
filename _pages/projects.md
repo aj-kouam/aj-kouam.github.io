@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Research
+title: Research Highlights
 permalink: /projects/
 description:
 nav: true
 nav_order: 3
-display_categories: [projects, code & datasets]
+display_categories: [code & datasets]
 horizontal: false
 ---
 
@@ -17,7 +17,51 @@ My research centers on **mobile security and privacy** within wireless and cellu
 
 **3. Mobile Users Privacy Protection**: Exploring privacy vulnerabilities arising from behavioral data and permission-less sensors, and designing novel, effective countermeasures to safeguard mobile users against adversarial tracking and information leakage.
 
-Below are some projects I have been working on within this framework along with related code and datasets:
+<div class="projects">
+
+  <a id="awards" href=".#awards">
+    <h2 class="category">awards & distinctions</h2>
+  </a>
+  <ul>
+    <li>
+      <strong>Prix “Science ouverte de la thèse” 2025.</strong><br>
+      National French award recognizing doctoral research. Awarded for my thesis on the understanding and mitigation of SIMBox fraud in mobile networks.
+    </li>
+
+    <li>
+      <strong>Best Paper Award, MSWiM 2025 (CORE A).</strong><br>
+      Awarded for the paper <em>"Beyond Aggregates: A Fine-Grained Analysis of Individual Mobility and Traffic Dependencies"</em>.
+    </li>
+
+    <li>
+      <strong>Selected Young Researcher, Heidelberg Laureate Forum (HLF) 2024.</strong><br>
+      One of only 200 young researchers worldwide selected to interact with Turing Award and ACM Prize laureates.
+    </li>
+
+    <li>
+      <strong>Abbe Grant.</strong><br>
+      Awarded by the Carl-Zeiss-Stiftung to only 20 participants of HLF 2024, funding full participation.
+    </li>
+
+    <li>
+      <strong>SoBigData++ Fellowship.</strong><br>
+      Transnational Access grant supporting a two-week research mission in Pisa, Italy.
+    </li>
+
+    <li>
+      <strong>Student Grant:</strong> ACM Sigmetrics 2021.<br>
+      <strong>Diversity Grants:</strong> USENIX SOUPS & USENIX ATC 2021.<br>
+    </li>
+
+    <li>
+      <strong>Best Student Paper:</strong> CoRes 2023, for the paper <em>Signalisation cellulaire pour la détection des fraudes de contournement</em>.
+    </li>
+
+  </ul>
+</div>
+
+
+
 
 <!-- pages/projects.md -->
 <div class="projects">

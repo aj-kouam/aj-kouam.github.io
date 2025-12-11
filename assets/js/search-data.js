@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research",
-          title: "Research",
+        },{id: "nav-research-highlights",
+          title: "Research Highlights",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -138,8 +138,11 @@ ninja.data = [{
           section: "News",},{id: "news-glad-to-serve-as-part-of-the-tpc-of-asiaccs-2026",
           title: 'Glad to serve as part of the TPC of AsiaCCS 2026.',
           description: "",
-          section: "News",},{id: "news-thrilled-to-share-that-our-paper-beyond-aggregates-a-fine-grained-analysis-of-individual-mobility-and-traffic-dependencies-received-the-best-paper-award-at-the-mswim-2025-conference-core-a-ranked-see-the-award-certificate-pdf",
+          section: "News",},{id: "news-thrilled-to-share-that-our-paper-beyond-aggregates-a-fine-grained-analysis-of-individual-mobility-and-traffic-dependencies-received-the-best-paper-award-at-the-mswim-2025-conference-core-a-ranked",
           title: 'Thrilled to share that our paper “Beyond Aggregates: A Fine-Grained Analysis of Individual...',
+          description: "",
+          section: "News",},{id: "news-honored-to-share-that-i-received-the-prix-science-ouverte-de-la-thèse-2025-for-my-doctoral-work-on-simbox-fraud-understanding-and-mitigation-more-details-are-available-on-inria-news-release",
+          title: 'Honored to share that I received the Prix “Science ouverte de la thèse”...',
           description: "",
           section: "News",},{id: "projects-privacy-preserving-generation-of-realistic-mobile-network-datasets",
           title: 'Privacy-Preserving Generation of Realistic Mobile Network Datasets',

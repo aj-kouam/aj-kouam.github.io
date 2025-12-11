@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  User data privacy . Applications of machine learning for security & privacy . Mobile networking security & privacy . Adversarial machine learning . Behavioral analysis
+subtitle:  User data privacy . Machine learning for security & privacy . Mobile networking . Adversarial machine learning . Behavioral analysis
 
 profile:
   align: left
@@ -34,7 +34,7 @@ My research lies at the intersection of machine learning, security, and privacy,
 
 During my PhD, I conducted research internships at [Telecom Paris](https://www.researchgate.net/profile/Philippe-Martins) (cellular signaling experiments in a Faraday cage) and at [CNR Pisa](https://lucapappalardo.com/) (modeling and realistic generation of CDR/XDR data). I hold a degree in computer engineering (2019) from École Polytechnique of Yaoundé, Cameroon.
 
-**Research interests**: User data privacy . Applications of machine learning for security & privacy . Mobile networking security & privacy . Adversarial machine learning . Behavioral analysis
+**Research interests**: User data privacy . Machine learning for security & privacy . Mobile networking . Adversarial machine learning . Behavioral analysis
  
 
 

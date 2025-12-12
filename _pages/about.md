@@ -38,4 +38,4 @@ During my PhD, I conducted research internships at [Telecom Paris](https://www.r
  
 
 
-**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on November 2025)
+**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on Dec 2025)

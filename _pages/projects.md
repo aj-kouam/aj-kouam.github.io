@@ -9,55 +9,56 @@ display_categories: [code & datasets]
 horizontal: false
 ---
 
-My research centers on **mobile security and privacy** within wireless and cellular network environments. I investigate how mobile human behavior data can be harnessed to enhance security and network resilience, while proactively addressing emerging privacy threats—particularly in the context of growing AI-powered infrastructures. My approach draws on techniques from machine learning, statistics, graph theory, and time series modeling, and is structured around the following three axes:
+My research focuses on the **security and privacy of mobile human behavior data**—the digital reflection created as billions of users interact with mobile devices and wireless infrastructures. I study how such behavioral signals can strengthen mobile network security while also introducing new privacy vulnerabilities, particularly in AI-driven ecosystems. My work is organized around three complementary axes:
 
-**1. Data-driven Mobile Networks Security**: Leveraging behavioral data from mobile networks to detect fraud (e.g., SIMBox), identify anomalies, model normal usage patterns, and optimize network configurations for increased robustness and adaptability.
+**1. Mobile Users Privacy Protection**: Investigating privacy risks arising from behavioral signals and sensors, and designing practical defenses against adversarial tracking and information leakage.
 
-**2. Privacy-preserving Data Publishing**: Developing methods to safely release mobile datasets such as Call Detail Records (CDRs) by modeling user heterogeneity, synthesizing realistic and usable data traces, and minimizing the risk of re-identification or misuse.
+**2. Privacy-Preserving User Data Sharing**: Developing safe data publishing methods for mobility and network datasets through realistic synthetic data generation, exposure modeling, and memorization auditing, with a focus on mitigating re-identification risks.
 
-**3. Mobile Users Privacy Protection**: Exploring privacy vulnerabilities arising from behavioral data and permission-less sensors, and designing novel, effective countermeasures to safeguard mobile users against adversarial tracking and information leakage.
+**3. Data-Driven Mobile Networking Security**: Leveraging behavioral and network-level data to detect fraud, characterize anomalies, and build more resilient mobile infrastructures, including emerging AI-enabled attack surfaces.
+
 
 <div class="projects">
 
   <a id="awards" href=".#awards">
     <h2 class="category">awards & distinctions</h2>
   </a>
-  <ul>
-    <li>
-      <strong>Prix “Science ouverte de la thèse” 2025.</strong><br>
-      National French award recognizing doctoral research. Awarded for my thesis on the understanding and mitigation of SIMBox fraud in mobile networks.
-    </li>
+  <div class="award-list">
 
-    <li>
-      <strong>Best Paper Award, MSWiM 2025 (CORE A).</strong><br>
-      Awarded for the paper <em>"Beyond Aggregates: A Fine-Grained Analysis of Individual Mobility and Traffic Dependencies"</em>.
-    </li>
+    <div class="award-item">
+      <strong>Prix “Science ouverte de la thèse” 2025</strong> - National French award recognizing doctoral research.
+    </div>
 
-    <li>
-      <strong>Selected Young Researcher, Heidelberg Laureate Forum (HLF) 2024.</strong><br>
-      One of only 200 young researchers worldwide selected to interact with Turing Award and ACM Prize laureates.
-    </li>
+    <div class="award-item">
+      <strong>Best Paper Award, MSWiM 2025 (CORE A)</strong> <em>"Beyond Aggregates: A Fine-Grained Analysis of Individual Mobility and Traffic Dependencies"</em>.
+    </div>
 
-    <li>
-      <strong>Abbe Grant.</strong><br>
-      Awarded by the Carl-Zeiss-Stiftung to only 20 participants of HLF 2024, funding full participation.
-    </li>
+    <div class="award-item">
+      <strong>Selected Young Researcher, Heidelberg Laureate Forum (HLF) 2024</strong> - 
+      One of 200 young researchers worldwide selected to interact with Turing Award and ACM Prize laureates.
+    </div>
 
-    <li>
-      <strong>SoBigData++ Fellowship.</strong><br>
+    <div class="award-item">
+      <strong>Abbe Grant</strong> - 
+      Awarded by the Carl-Zeiss-Stiftung to only 20 HLF 2024 participants, funding full participation.
+    </div>
+
+    <div class="award-item">
+      <strong>SoBigData++ Fellowship</strong> - 
       Transnational Access grant supporting a two-week research mission in Pisa, Italy.
-    </li>
+    </div>
 
-    <li>
-      <strong>Student Grant:</strong> ACM Sigmetrics 2021.<br>
-      <strong>Diversity Grants:</strong> USENIX SOUPS & USENIX ATC 2021.<br>
-    </li>
+    <div class="award-item">
+      <strong>Student Grant</strong> — ACM Sigmetrics 2021<br>
+      <strong>Diversity Grants</strong> — USENIX SOUPS & USENIX ATC 2021
+    </div>
 
-    <li>
-      <strong>Best Student Paper:</strong> CoRes 2023, for the paper <em>Signalisation cellulaire pour la détection des fraudes de contournement</em>.
-    </li>
+    <div class="award-item">
+      <strong>Best Student Paper, CoRes 2023</strong> <em>"Signalisation cellulaire pour la détection des fraudes de contournement"</em>.
+    </div>
 
-  </ul>
+  </div>
+  
 </div>
 
 

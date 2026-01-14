@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Teaching & Service
+title:  Teaching & Service
 description: Overview of my teaching experiences and scientific service to the community.
 nav: true
 nav_order: 6
@@ -9,17 +9,18 @@ nav_order: 6
 
 ### Teaching Activities
 
-I had the opportunity to interact with students from several institutions through various types of classes, including Massive Online Open Courses (**MOOC**), Practical Courses (**PC**), Seminar Courses (**SC**), and Lecture Tutorials (**TD**), totaling around **108 hours**. Below is a summary of my teaching activities:
+I had the opportunity to teach and supervice students cross multiple institutions and academic levels through a variety of course formats, including Massive Online Open Courses (**MOOC**), Practical Courses (**PC**), Seminar Courses (**SC**), and Lecture Tutorials (**TD**).
+My teaching activities span undergraduate to graduate levels and cover topics in networking, security, privacy, and distributed systems. 
 
-| **Course**                                                                        | **Level** | **Period**          | **Institution / Platform**                                                                                                                                                               | **Workload** |
-| --------------------------------------------------------------------------------- | --------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
-| **(SC)** Mobile Privacy and Security                                              | L3        | Apr–Jul 2025        | TU Berlin (Germany)                                                                                                                                                                      | ~12h         |
-| **(TD)** Adversarial Machine Learning                                             | M2        | Oct 2024 – Feb 2025 | TU Berlin (Germany)                                                                                                                                                                      | ~24h         |
-| **(SC)** Unusual Side Channels and Privacy Leaks                                  | L3        | Oct 2024 – Feb 2025 | TU Berlin (Germany)                                                                                                                                                                      | ~12h         |
-| **(SC)** Mobile Privacy and Security                                              | L3        | Apr–Jul 2024        | TU Berlin (Germany)                                                                                                                                                                      | ~12h         |
-| **(TD)** Networking: Switching and Routing                                        | L2        | Sep – Dec 2021      | Université Paris-Saclay (France)                                                                                                                                                         | 24h          |
-| **(MOOC)** Fundamentals of Network and Information Systems (18,323 registrations) | CAPES     | 2021                | [FUN-MOOC](https://www.fun-mooc.fr/fr/cours/numerique-et-sciences-informatiques-les-fondamentaux/) & [YouTube](https://www.youtube.com/playlist?list=PLKGPGznq6a-X2J8dTThYPsnshJmiYbZy2) | ~24h         |
-| **(PC)** Distributed Systems and Virtualization                                   | M2        | Oct – Dec 2019      | ENSPY (Cameroon)                                                                                                                                                                         | ~12h         |
+| **Course**                                                                        | **Level** | **Period**          | **Institution / Platform**                                                                                                                                                               |
+| --------------------------------------------------------------------------------- | --------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **(SC)** Mobile Privacy and Security                                              | L3        | Apr–Jul 2025        | TU Berlin (Germany)                                                                                                                                                                      |
+| **(TD)** Adversarial Machine Learning                                             | M2        | Oct 2024 – Feb 2025 | TU Berlin (Germany)                                                                                                                                                                      |
+| **(SC)** Unusual Side Channels and Privacy Leaks                                  | L3        | Oct 2024 – Feb 2025 | TU Berlin (Germany)                                                                                                                                                                      |
+| **(SC)** Mobile Privacy and Security                                              | L3        | Apr–Jul 2024        | TU Berlin (Germany)                                                                                                                                                                      |
+| **(TD)** Networking: Switching and Routing                                        | L2        | Sep – Dec 2021      | Université Paris-Saclay (France)                                                                                                                                                         |
+| **(MOOC)** Fundamentals of Network and Information Systems (18,323 registrations) | CAPES     | 2021                | [FUN-MOOC](https://www.fun-mooc.fr/fr/cours/numerique-et-sciences-informatiques-les-fondamentaux/) & [YouTube](https://www.youtube.com/playlist?list=PLKGPGznq6a-X2J8dTThYPsnshJmiYbZy2) |
+| **(PC)** Distributed Systems and Virtualization                                   | M2        | Oct – Dec 2019      | ENSPY (Cameroon)                                                                                                                                                                         |
 
 ---
 
@@ -43,14 +44,16 @@ I had the opportunity to interact with students from several institutions throug
 
 #### Journal Reviewing
 
-Reviewer for five international journals:
+- 2026:
+    - Journal of Telecommunications and Information Technology
+- 2024:
+    - IEEE Open Journal of the Communications Society (Q1)
+    - IEEE/ACM Transactions on Mobile Computing (Q1)
+    - [EPJ Data Science](https://orcid.org/0000-0002-8803-6256) (Q1)
+    - [Annals of Telecommunications](https://orcid.org/0000-0002-8803-6256) (Q2)
+- 2021:
+    - IEEE Transactions on Network and Service Management (Q1) _(as sub-reviewer)_
 
-- IEEE/ACM Transactions on Mobile Computing (Q1)
-- IEEE Open Journal of the Communications Society (Q1)
-- [EPJ Data Science](https://orcid.org/0000-0002-8803-6256) (Q1)
-- [Annals of Telecommunications](https://orcid.org/0000-0002-8803-6256) (Q2)
-- IEEE Transactions on Network and Service Management (Q1) _(as sub-reviewer)_
 
-<!-- #### Science Communication
 
-- **2020–2021**: Scientific Popularization Mission at Inria Saclay – 32 working days of outreach and dissemination activities. -->
+

@@ -1,0 +1,201 @@
+- campus: Saclay
+  campus_city: Palaiseau
+  campus_country: France
+  lat: 48.7136
+  lon: 2.2126
+  institutions:
+    - name: Inria Saclay
+      collaborations:
+        - name: Aline Carneiro Viana
+          role: Director of Research (former PhD co-advisor)
+          link: https://pages.saclay.inria.fr/aline.viana/
+          active: True
+        - name: Cedric Adjih
+          role: Researcher
+          link: https://cv.hal.science/cedric-adjih
+          active: False
+        - name: Nadjib Achir
+          role: Associate Professor
+          link: https://cv.hal.science/cedric-adjih
+          active: True
+      advising:
+        - name: Gaelle Yonga
+          role: Master student
+          active: False
+        - name: Cliton Nyobe
+          role: Master student
+          active: False
+
+    - name: Télécom Paris
+      collaborations:
+        - name: Philippe Martins
+          role: Professor
+          link: https://www.researchgate.net/profile/Philippe-Martins
+          active: False
+      advising: []
+
+      
+- institution: TU Berlin
+  city: Berlin
+  country: Germany
+  lat: 52.5200
+  lon: 13.4050
+  collaborations:
+    - name: Konrad Rieck
+      role: Professor (former postdoctoral advisor)
+      link: https://mlsec.org/team/rieck/
+      active: True
+    - name: Stefan Czybik
+      role: PhD student
+      link: https://mlsec.org/team/czybik/index.html
+      active: True
+  advising:
+    - name: Elena Banks
+      role: Master student
+      active: True
+    - name: Hristo Boyadzhiev
+      role: Master student
+      active: False
+    - name: Elias Tranchant
+      role: Master student
+      active: False
+    - name: Ivanna Bura
+      role: Master student
+      active: False
+    - name: Maximilian Erkel
+      role: Master student
+      active: False
+    - name: Carlos Fandino
+      role: Bachelor student
+      active: False
+
+- institution: Grenoble INP
+  city: Grenoble
+  country: France
+  lat: 45.1885
+  lon: 5.7245
+  collaborations:
+    - name: Alain Tchana
+      role: Professor (former PhD co-advisor)
+      link: https://lig-membres.imag.fr/tchanaa/index.html
+      active: False
+  advising: []
+
+
+
+- institution: ISTI-CNR
+  city: Pisa
+  country: Italy
+  lat: 43.7228
+  lon: 10.4017
+  collaborations:
+    - name: Luca Pappalardo
+      role: Researcher
+      link: https://kdd.isti.cnr.it/people/pappalardo-luca
+      active: False
+  advising: []
+
+
+- institution: Universidad de San Andrés
+  city: Buenos Aires
+  country: Argentina
+  lat: -34.5534
+  lon: -58.4476
+  collaborations:
+    - name: Mariano Beiro
+      role: Associate Professor
+      link: https://udesa.edu.ar/cuerpo-docente/mariano-beiro
+      active: True
+  advising:
+    - name: Tiziano Martin
+      role: Master student
+      active: True
+      
+
+
+- institution: Universidad del Desarrollo
+  city: Santiago
+  country: Chile
+  lat: -33.4378
+  lon: -70.6504
+  collaborations:
+    - name: Leo Ferres
+      role: Associate Professor
+      link: https://leoferres.github.io/
+      active: True
+  advising: []
+
+
+- institution: University of Yaoundé I
+  city: Yaoundé
+  country: Cameroon
+  lat: 3.8480
+  lon: 11.5021
+  collaborations:
+    - name: Hyppolyte Tapamo
+      role: Associate Professor
+      link: https://ieeexplore.ieee.org/author/37089808276
+      active: True
+  advising:
+    - name: Rhunel Leugem
+      role: Master student
+      active: True
+    - name: Rostand Kenfack
+      role: Master student
+      active: True
+      
+- institution: Indiana University
+  city: Bloomington
+  country: USA
+  lat: 39.1653
+  lon: -86.5264
+  collaborations:
+    - name: Thai Le
+      role: Assistant Professor
+      link: https://luddy.indiana.edu/contact/profile/index.html?Thai_Le
+      active: True
+  advising:
+    - name: Yueru Yan
+      role: Master student
+      active: False
+      
+
+- institution: MIT Lincoln Laboratory
+  city: Lexington
+  country: USA
+  lat: 42.4473
+  lon: -71.2250
+  collaborations:
+    - name: Adaku Uchendu
+      role: Researcher
+      link: https://adauchendu.github.io/
+      active: True
+  advising: []
+
+
+- institution: UFMG
+  city: Belo Horizonte
+  country: Brazil
+  lat: -19.8696
+  lon: -43.9647
+  collaborations:
+    - name: Jussara M. Almeida
+      role: Associate Professor
+      link: https://homepages.dcc.ufmg.br/~jussara/
+      active: True
+  advising:
+    - name: Lucas Da Silva Felix
+      role: PhD student (cotutelle)
+      active: True
+      
+- institution: University of Tartu
+  city: Tartu
+  country: Estonia
+  lat: 58.3776
+  lon: 26.7290
+  collaborations:
+    - name: Mohammed Gharib
+      role: Associate Professor
+      link: https://kodu.ut.ee/~gharib/
+      active: True
+  advising: []

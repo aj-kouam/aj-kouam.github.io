@@ -27,6 +27,52 @@ $max-content-width: {{ site.max_width }};
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 body {
-  font-size: 90%; // Reduce all text by 10%
-  font-family: 'IBM Plex Sans',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 90%;
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --site-font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
+
+
+.leaflet-container,
+.leaflet-popup,
+.leaflet-popup-content-wrapper,
+.leaflet-popup-content {
+  font-family: var(--site-font-family) !important;
+  font-size: 0.9rem !important;
+}
+
+
+/* Teaching table styling */
+.table-centered table {
+  width: 70%;
+  margin: 1.2rem auto 2rem auto;
+  border-collapse: collapse;
+  font-size: 0.9rem; /* légèrement plus petit que le texte courant */
+}
+
+/* Header */
+.table-centered thead th {
+  font-weight: 600;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 2px solid var(--global-accent-color);
+}
+
+/* Body rows */
+.table-centered tbody td {
+  padding: 0.45rem 0.6rem;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(33, 150, 243, 0.25); /* bleu discret */
+}
+
+/* Remove vertical borders */
+.table-centered th,
+.table-centered td {
+  border-left: none;
+  border-right: none;
+}
+
+/* Slight hover for readability (optional but nice) */
+.table-centered tbody tr:hover {
+  background-color: rgba(33, 150, 243, 0.04);
+}
+

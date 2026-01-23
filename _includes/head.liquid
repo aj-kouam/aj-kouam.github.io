@@ -10,6 +10,13 @@
   crossorigin="anonymous"
 >
 
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  crossorigin=""
+>
+
+
 {% if page.pretty_table %}
   <!-- Bootstrap Table -->
   <link
@@ -86,13 +93,12 @@
 
 {% if page.map %}
   <!-- GeoJSON support via Leaflet -->
-  <link
-    defer
-    rel="stylesheet"
-    href="{{ site.third_party_libraries.leaflet.url.css }}"
-    integrity="{{ site.third_party_libraries.leaflet.integrity.css }}"
-    crossorigin="anonymous"
-  >
+ <script
+  defer
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  crossorigin="">
+</script>
+
 {% endif %}
 
 {% if page.code_diff %}

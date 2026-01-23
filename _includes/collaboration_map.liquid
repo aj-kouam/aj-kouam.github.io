@@ -1,0 +1,159 @@
+<div id="collaboration-map"></div>
+
+<style>
+#collaboration-map {
+  height: 450px;
+  width: 100%;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+}
+
+/* Marker with count */
+.institution-marker {
+  position: relative;
+}
+
+.institution-count {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background: #6f42c1;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+}
+
+/* Inactive (past) people */
+.popup-person.inactive {
+  opacity: 0.55;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  var map = L.map("collaboration-map", {
+    scrollWheelZoom: false
+  }).setView([20, 0], 2);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors"
+  }).addTo(map);
+
+  {% for entry in site.data.collaborations %}
+    (function () {
+
+      var popupContent = "";
+      var totalCount = 0;
+
+      /* =====================================================
+         CASE 1: CAMPUS (multiple institutions)
+      ===================================================== */
+      {% if entry.campus %}
+
+        {% for inst in entry.institutions %}
+          popupContent += "<u><strong>{{ inst.name }}</strong></u> ";
+          popupContent += " (<em>{{ entry.campus_city }}, {{ entry.campus_country }}</em>)<br><br>";
+
+          {% if inst.collaborations and inst.collaborations.size > 0 %}
+            popupContent += "<span style='color:#2196F3;'>●</span> Research collaboration<br>";
+            {% for p in inst.collaborations %}
+              totalCount += 1;
+              var cls = "{{ p.active }}" === "false" ? "popup-person inactive" : "popup-person";
+              popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– ";
+              {% if p.link %}
+                popupContent += "<a href='{{ p.link }}' target='_blank' rel='noopener'>{{ p.name }}</a>";
+              {% else %}
+                popupContent += "{{ p.name }}";
+              {% endif %}
+              popupContent += " ({{ p.role }})</div>";
+            {% endfor %}
+            popupContent += "<br>";
+          {% endif %}
+
+          {% if inst.advising and inst.advising.size > 0 %}
+            popupContent += "<span style='color:#4CAF50;'>●</span> Student advising<br>";
+            {% for p in inst.advising %}
+              totalCount += 1;
+              var cls = "{{ p.active }}" === "false" ? "popup-person inactive" : "popup-person";
+              popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– {{ p.name }} ({{ p.role }})</div>";
+            {% endfor %}
+            popupContent += "<br>";
+          {% endif %}
+        {% endfor %}
+
+        var lat = {{ entry.lat }};
+        var lon = {{ entry.lon }};
+
+      /* =====================================================
+         CASE 2: SINGLE INSTITUTION
+      ===================================================== */
+      {% else %}
+
+        popupContent += "<u><strong>{{ entry.institution }}</strong></u>";
+        popupContent += " (<em>{{ entry.city }}, {{ entry.country }}</em>)<br><br>";
+
+        {% if entry.collaborations and entry.collaborations.size > 0 %}
+          popupContent += "<span style='color:#2196F3;'>●</span> Research collaboration<br>";
+          {% for p in entry.collaborations %}
+            totalCount += 1;
+            var cls = "{{ p.active }}" === "false" ? "popup-person inactive" : "popup-person";
+            popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– ";
+            {% if p.link %}
+              popupContent += "<a href='{{ p.link }}' target='_blank' rel='noopener'>{{ p.name }}</a>";
+            {% else %}
+              popupContent += "{{ p.name }}";
+            {% endif %}
+            popupContent += " ({{ p.role }})</div>";
+          {% endfor %}
+          popupContent += "<br>";
+        {% endif %}
+
+        {% if entry.advising and entry.advising.size > 0 %}
+          popupContent += "<span style='color:#4CAF50;'>●</span> Student advising<br>";
+          {% for p in entry.advising %}
+            totalCount += 1;
+            var cls = "{{ p.active }}" === "false" ? "popup-person inactive" : "popup-person";
+            popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– {{ p.name }} ({{ p.role }})</div>";
+          {% endfor %}
+        {% endif %}
+
+        var lat = {{ entry.lat }};
+        var lon = {{ entry.lon }};
+
+      {% endif %}
+
+      /* =====================================================
+         MARKER
+      ===================================================== */
+
+      var iconHtml =
+        "<div class='institution-marker'>" +
+          "<div style='width:14px;height:14px;background:#6f42c1;border-radius:50%;border:2px solid white;'></div>" +
+          "<div class='institution-count'>" + totalCount + "</div>" +
+        "</div>";
+
+      var icon = L.divIcon({
+        html: iconHtml,
+        className: "",
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+      });
+
+      L.marker([lat, lon], { icon: icon })
+        .addTo(map)
+        .bindPopup(popupContent);
+
+    })();
+  {% endfor %}
+
+  setTimeout(() => map.invalidateSize(true), 500);
+});
+</script>

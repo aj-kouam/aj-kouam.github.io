@@ -23,9 +23,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-teaching-amp-service",
-          title: "Teaching &amp; Service",
-          description: "Overview of my teaching experiences and scientific service to the community.",
+        },{id: "nav-service",
+          title: "Service",
+          description: "Overview of my teaching activities, service to the scientific community, and contributions to open science.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";

@@ -76,3 +76,27 @@ body {
   background-color: rgba(33, 150, 243, 0.04);
 }
 
+/* ===============================
+   Leaflet popup – dark mode fix
+   =============================== */
+
+html[data-theme="dark"] .leaflet-popup-content-wrapper {
+  background: #1e1e1e;
+  color: #e6e6e6;
+}
+
+html[data-theme="dark"] .leaflet-popup-tip {
+  background: #1e1e1e;
+}
+
+html[data-theme="dark"] .leaflet-popup-content {
+  color: #e6e6e6;
+}
+
+html[data-theme="dark"] .leaflet-popup-content a {
+  color: #4da3ff;
+}
+
+html[data-theme="dark"] .leaflet-popup-content em {
+  color: #bdbdbd;
+}

@@ -131,6 +131,71 @@ document.addEventListener("DOMContentLoaded", function () {
       ===================================================== */
       
 
+        popupContent += "<u><strong>Inria Lyon</strong></u>";
+        popupContent += " (<em>Lyon, France</em>)<br><br>";
+
+        
+          popupContent += "<span style='color:#2196F3;'>●</span> Research collaboration<br>";
+          
+            totalCount += 1;
+            var cls = "" === "false" ? "popup-person inactive" : "popup-person";
+            popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– ";
+            
+              popupContent += "<a href='http://perso.citi.insa-lyon.fr/rstanica/index.html' target='_blank' rel='noopener'>Razvan Stanica</a>";
+            
+            popupContent += " (Associate Professor)</div>";
+          
+            totalCount += 1;
+            var cls = "" === "false" ? "popup-person inactive" : "popup-person";
+            popupContent += "<div class='" + cls + "'>&nbsp;&nbsp;– ";
+            
+              popupContent += "<a href='https://networks.imdea.org/team/imdea-networks-team/people/sachit-mishra/' target='_blank' rel='noopener'>Sachit Mishra</a>";
+            
+            popupContent += " (Postdoctoral researcher)</div>";
+          
+          popupContent += "<br>";
+        
+
+        
+
+        var lat = 45.7862;
+        var lon = 4.8797;
+
+      
+
+      /* =====================================================
+         MARKER
+      ===================================================== */
+
+      var iconHtml =
+        "<div class='institution-marker'>" +
+          "<div style='width:14px;height:14px;background:#6f42c1;border-radius:50%;border:2px solid white;'></div>" +
+          "<div class='institution-count'>" + totalCount + "</div>" +
+        "</div>";
+
+      var icon = L.divIcon({
+        html: iconHtml,
+        className: "",
+        iconSize: [20, 20],
+        iconAnchor: [10, 10]
+      });
+
+      L.marker([lat, lon], { icon: icon })
+        .addTo(map)
+        .bindPopup(popupContent);
+
+    })();
+  
+    (function () {
+
+      var popupContent = "";
+      var totalCount = 0;
+
+      /* =====================================================
+         CASE 1: CAMPUS (multiple institutions)
+      ===================================================== */
+      
+
         popupContent += "<u><strong>TU Berlin</strong></u>";
         popupContent += " (<em>Berlin, Germany</em>)<br><br>";
 

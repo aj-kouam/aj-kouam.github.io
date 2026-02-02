@@ -33,19 +33,6 @@
           link: https://www.researchgate.net/profile/Philippe-Martins
           active: False
       advising: []
-
-- institution: Inria Lyon
-  city: Lyon
-  country: France
-  lat: 45.7862
-  lon: 4.8797
-  collaborations:
-    - name: Razvan Stanica
-      role: Associate Professor 
-      link: http://perso.citi.insa-lyon.fr/rstanica/index.html
-    - name: Sachit Mishra
-      role: Postdoctoral researcher
-      link: https://networks.imdea.org/team/imdea-networks-team/people/sachit-mishra/
       
 
 - institution: TU Berlin
@@ -211,4 +198,19 @@
       role: Associate Professor
       link: https://kodu.ut.ee/~gharib/
       active: True
+  advising: []
+
+
+- institution: Inria Lyon
+  city: Lyon
+  country: France
+  lat: 45.7862
+  lon: 4.8797
+  collaborations:
+    - name: Razvan Stanica
+      role: Associate Professor 
+      link: http://perso.citi.insa-lyon.fr/rstanica/index.html
+    - name: Sachit Mishra
+      role: Postdoctoral researcher
+      link: https://networks.imdea.org/team/imdea-networks-team/people/sachit-mishra/
   advising: []

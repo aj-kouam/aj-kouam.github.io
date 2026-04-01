@@ -150,6 +150,9 @@ ninja.data = [{
           section: "News",},{id: "news-glad-to-serve-as-part-of-the-tpc-of-eurodw-2026-and-algotel-2026",
           title: 'Glad to serve as part of the TPC of EuroDW 2026 and Algotel...',
           description: "",
+          section: "News",},{id: "news-released-zenplus-a-lightweight-python-library-for-modeling-traffic-mobility-dependencies-from-fine-grained-mobile-network-data-available-as-an-open-source-research-artifact-of-our-mswim-25-paper",
+          title: 'Released ZenPlus, a lightweight Python library for modeling traffic–mobility dependencies from fine-grained mobile...',
+          description: "",
           section: "News",},{id: "projects-privacy-preserving-generation-of-realistic-mobile-network-datasets",
           title: 'Privacy-Preserving Generation of Realistic Mobile Network Datasets',
           description: "STIC-AmSud LINT project exploring AI-based modeling and synthesis of complete mobile datasets with privacy guarantees.",
@@ -165,6 +168,11 @@ ninja.data = [{
           description: "Simulator for traffic and mobility of legitimate and SIMBox users in cellular networks.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/code_fraudzen/";
+            },},{id: "projects-zenplus-library",
+          title: 'ZenPlus Library',
+          description: "Python library for modeling traffic–mobility dependencies from fine-grained mobile network data.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/code_zenplus/";
             },},{id: "projects-fraudzen-dataset",
           title: 'FraudZen Dataset',
           description: "Realistic mobile traffic traces with ground truth generated with the FraudZen simulator for benchmarking SIMBox fraud detection algorithms.",

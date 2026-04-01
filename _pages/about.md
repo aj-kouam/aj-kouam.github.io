@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a postdoctoral researcher (starting researcher position) in the [TRIBE team](https://team.inria.fr/tribe/) at Inria Saclay, contributing to the national research program [PEPR MOBIDEC](https://pepr-mobidec.fr/). I am also an associate researcher in the [Machine Learning and Security](https://mlsec.org/) group at TU Berlin, led by [Prof. Konrad Rieck](https://mlsec.org/team/rieck/index.html), where I completed a postdoctoral fellowship.
+I hold a Postdoctoral Fellowship (starting researcher position) in the [TRIBE team](https://team.inria.fr/tribe/) at Inria Saclay and serve as Associate Researcher position in the [Machine Learning and Security](https://mlsec.org/) group at TU Berlin, led by [Prof. Konrad Rieck](https://mlsec.org/team/rieck/index.html), where I completed a postdoctoral fellowship. At Inria Saclay I contribute to the coordination of [MobSciData Factory](https://project.inria.fr/mobscidatfactory/) project of the national research program [PEPR MOBIDEC](https://pepr-mobidec.fr/) as Inria scientific leader. 
 
 I earned my PhD from Inria Saclay and École Polytechnique, under the supervision of [Aline Carneiro Viana](http://pages.saclay.inria.fr/aline.viana/) and [Alain Tchana](http://perso.ens-lyon.fr/alain.tchana/), and subsequently held a short postdoc at Inria.
 My research lies at the intersection of machine learning, security, and privacy, with a particular focus on user-centered analysis, attack and defense strategies, and data-driven methods in mobile communication systems.

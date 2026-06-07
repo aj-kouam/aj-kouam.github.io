@@ -59,6 +59,9 @@ My teaching activities span undergraduate to graduate levels and cover topics in
 - 2024: [Annals of Telecommunications](https://orcid.org/0000-0002-8803-6256) (Q2)
 - 2021: IEEE Transactions on Network and Service Management (Q1) _(as sub-reviewer)_
 
+#### Artefact Evaluation Committee
+- 2022: [USENIX Security '22](https://www.usenix.org/conference/usenixsecurity22/call-for-artifacts), [CoNEXT '22](https://conferences2.sigcomm.org/co-next/2022/#!/artifact-committee)
+- 2021: [EuroSys '21](https://sysartifacts.github.io/eurosys2021/committee.html)
 
 <!-- pages/projects.md -->
 <div class="projects">

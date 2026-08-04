@@ -18,16 +18,14 @@ This page provides a **manually curated** list of my research publications acros
 
 <div class="publications">
 
-<h3>International Conferences, Journals, and Workshops</h3>
-{% bibliography --file international %}
+{% bibliography
+  --file international
+  --file national
+  --file preprints
+  --file thesis
+  --group_by year
+  --group_order descending
+%}
 
-<h3>National Conferences and Workshops</h3>
-{% bibliography --file national %}
-
-<h3>Technical Reports, Datasets, Preprints</h3>
-{% bibliography --file preprints %}
-
-<h3>Thesis</h3>
-{% bibliography --file thesis %}
 
 </div>

@@ -168,7 +168,7 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-tracing-the-unseen-a-deep-dive-into-mobility-behavior-exposure-has-been-accepted-for-publication-in-epj-data-science-congrats-lucas-felix",
           title: 'Our paper “Tracing the Unseen: A Deep Dive into Mobility Behavior Exposure” has...',
           description: "",
-          section: "News",},{id: "news-our-paper-on-the-feasibility-of-reference-free-tracking-via-motion-sensors-in-public-transport-is-accepted-as-a-full-paper-at-acm-ieee-mswim-2026-with-an-acceptance-rate-of-19",
+          section: "News",},{id: "news-our-paper-on-the-feasibility-of-reference-free-tracking-via-motion-sensors-in-public-transport-is-accepted-as-a-full-paper-at-ieee-mswim-2026-with-an-acceptance-rate-of-19",
           title: 'Our paper “On the Feasibility of Reference-Free Tracking via Motion Sensors in Public...',
           description: "",
           section: "News",},{id: "projects-privacy-preserving-generation-of-realistic-mobile-network-datasets",

@@ -43,6 +43,7 @@ My teaching activities span undergraduate to graduate levels and cover topics in
 - 2020: **[Feedback Days](https://sites.google.com/view/retourxpenspygi2020/accueil)**, ENSPY Cameroon: Two-day scientific workshop with problem-solving sessions.
 
 #### Program Committee Membership
+- **2027**: [AsiaCCS'27](https://asiaccs2027.cityu.edu.mo/program-committee/index.html), [Usenix Security'27](https://www.usenix.org/conference/usenixsecurity27/call-for-papers)
 - **2026**: [AsiaCCS'26](https://asiaccs2026.cse.iitkgp.ac.in/program-committee/), [EuroDW'26](https://eurodw.github.io/), [Algotel'26](https://algotel-cores26.sciencesconf.org/resource/page/id/3), [UrbCom'26](https://sites.google.com/view/urbcom2026/committees?authuser=0), [ACSAC'26](https://www.acsac.org/2026/committees/program/), [WiMob'26](http://www.wimob.org/wimob2026/committees.php), [Netmob'26](https://netmob.org/www26/)
 - **2025**: [AISec'25](https://aisec25.hotcrp.com/u/1/users/pc), [WiMob'25](http://www.wimob.org/wimob2025/committees.php), [TMA'25](https://hotcrp.dacs.utwente.nl/tma2025/users/pc), [PAM'25](https://udesa.edu.ar/committees), [Algotel&Cores'25](https://algotelcores2025.limos.fr/users/pc) _(French national)_,
 - **2024**: [ACSAC'24](https://www.acsac.org/2024/committees/program/) _(A-ranked)_, [WiMob'24](http://wimob.org/wimob2024/committees.php), [ICNS'24](https://www.iaria.org/conferences2024/ComICNS24.html), [EuroDW'24](https://2024.eurosys.org/euroDW.html) _(Workshop)_

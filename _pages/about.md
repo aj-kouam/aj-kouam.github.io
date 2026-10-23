@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle:  User data privacy . Machine learning for security & privacy . Mobile networking . Adversarial machine learning . Behavioral analysis
+subtitle:  Privacy & Security · Trustworthy AI · User Data Privacy · Mobile & Data-Driven Systems
 
 profile:
   align: left
@@ -10,10 +10,9 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: <p>Inria Saclay, TRIBE team</p>
     <p>1 Rue Honoré d'Estienne d'Orves, 91120 Palaiseau</p>
-    <p><a href="mailto:anne-josiane.kouam@inria.fr">anne-josiane.kouam@inria.fr</a></p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -27,13 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I hold a Postdoctoral Fellowship (starting researcher position) in the [TRIBE team](https://team.inria.fr/tribe/) at Inria Saclay and serve as Associate Researcher in the [Machine Learning and Security](https://mlsec.org/) group at TU Berlin, led by [Prof. Konrad Rieck](https://mlsec.org/team/rieck/index.html), where I completed a postdoctoral fellowship. At Inria Saclay I contribute to the coordination of [MobSciData Factory](https://project.inria.fr/mobscidatfactory/) project of the national research program [PEPR MOBIDEC](https://pepr-mobidec.fr/) as Inria scientific leader. 
+I am a Research Scientist (*Chargée de Recherche*) in the [TRiBE team](https://team.inria.fr/tribe/) at Inria Saclay. My research focuses on privacy and security in data-driven systems, particularly the risks associated with machine learning, human behavioral data, and mobile technologies.
 
-I earned my PhD from Inria Saclay and École Polytechnique, under the supervision of [Aline Carneiro Viana](http://pages.saclay.inria.fr/aline.viana/) and [Alain Tchana](http://perso.ens-lyon.fr/alain.tchana/), and subsequently held a short postdoc at Inria.
-My research lies at the intersection of machine learning, security, and privacy, with a particular focus on user-centered analysis, attack and defense strategies, and data-driven methods in mobile communication systems.
+Previously, I was a postdoctoral researcher at TU Berlin, where I remain affiliated with the [Machine Learning and Security](https://mlsec.org/) group. I received my PhD in Computer Science from Institut Polytechnique de Paris, conducting my research at Inria Saclay and École Polytechnique under the supervision of [Aline Carneiro Viana](http://pages.saclay.inria.fr/aline.viana/) and [Alain Tchana](http://perso.ens-lyon.fr/alain.tchana/). I also hold a degree in Computer Engineering from École Nationale Polytechnique de Yaoundé, Cameroon.
 
-During my PhD, I conducted research internships at [Telecom Paris](https://www.researchgate.net/profile/Philippe-Martins) (cellular signaling experiments in a Faraday cage) and at [CNR Pisa](https://lucapappalardo.com/) (modeling and realistic generation of CDR/XDR data). I hold a degree in computer engineering (2019) from École Polytechnique of Yaoundé, Cameroon.
-
-**Research interests**: User data privacy . Machine learning for security & privacy . Mobile networking . Adversarial machine learning . Behavioral analysis
+**Research interests**: Privacy & Security · Trustworthy AI · User Data Privacy · Mobile & Data-Driven Systems
  
-**More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on Dec 2025)
+<!-- **More detailed information**: [My CV](https://github.com/aj-kouam/aj-kouam.github.io/blob/main/assets/pdf/Anne_Josiane_Kouam_CV.pdf) (last updated on Dec 2025) -->

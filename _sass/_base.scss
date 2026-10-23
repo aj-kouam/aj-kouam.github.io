@@ -190,10 +190,11 @@ ul.task-list input[type="checkbox"] {
   color: var(--global-theme-color);
 }
 
-// Profile
+
+ // Profile
 
 .profile {
-  width: 100%;
+  width: 20%;
 
   .more-info {
     margin-bottom: 5px;
@@ -217,7 +218,7 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 20%;
 
     .address {
       p {
@@ -240,6 +241,7 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
 
 // Navbar customization
 
@@ -1436,4 +1438,82 @@ figure.cover {
 
 .award-highlights li {
   margin-bottom: 0.4rem;
+}
+
+
+/* Compact social icons below profile photo */
+
+.profile-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+  margin-bottom: 16px;
+
+  a {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+
+  i,
+  svg {
+    font-size: 0.95rem;
+    width: 0.95em;
+    height: 0.95em;
+  }
+}
+
+
+
+/* Teaching & Advising — Responsive layout */
+
+.activity-list,
+.advising-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 1rem;
+  row-gap: 0.1rem;
+  margin: 1rem 0 2rem;
+  padding: 0;
+  list-style: none;
+}
+
+.activity-item,
+.advising-list li {
+  border-left: 3px solid var(--global-theme-color);
+  padding: 0.25rem 0.6rem;
+  margin: 0;
+  min-width: 0;
+  line-height: 1.4;
+}
+
+.activity-details {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  margin-top: 0.2rem;
+}
+
+/* Advising section subtitles */
+.advising-subheading {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 1.5rem 0 0.75rem;
+}
+
+/* Mobile and small tablets */
+@media (max-width: 767px) {
+  .activity-list,
+  .advising-list {
+    grid-template-columns: 1fr;
+    row-gap: 0.75rem;
+  }
 }

@@ -1,0 +1,32 @@
+
+{% assign locations = site.data.collaborations %}
+
+<ul class="advising-list">
+{% for location in locations %}
+
+  {% if location.institutions %}
+    {% for institution in location.institutions %}
+      {% for student in institution.advising %}
+        {% if student.active == include.active %}
+          <li>
+            <strong>{{ student.name }}</strong>
+            — {{ student.role }},
+            {{ institution.name }}
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% else %}
+    {% for student in location.advising %}
+      {% if student.active == include.active %}
+        <li>
+          <strong>{{ student.name }}</strong>
+          — {{ student.role }},
+          {{ location.institution }}
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+{% endfor %}
+</ul>

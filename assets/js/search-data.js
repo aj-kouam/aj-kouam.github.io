@@ -16,19 +16,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-research-highlights",
-          title: "Research Highlights",
-          description: "",
+        },{id: "nav-distinctions",
+          title: "Distinctions",
+          description: "Scientific distinctions and international research collaborations",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-service",
-          title: "Service",
-          description: "Overview of my teaching activities, service to the scientific community, and contributions to open science.",
+        },{id: "nav-teaching-amp-advising",
+          title: "Teaching &amp; Advising",
+          description: "Teaching activities and student advising",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/teaching/";
+            window.location.href = "/teaching-advising/";
+          },
+        },{id: "nav-service",
+          title: "Service",
+          description: "Scientific community service, conference organization, peer reviewing, and open science contributions.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/service/";
           },
         },{id: "nav-outreach",
           title: "Outreach",
@@ -174,8 +181,11 @@ ninja.data = [{
           section: "News",},{id: "news-glad-to-serve-as-part-of-the-tpc-of-ieee-ithings-2026-acm-asiaccs-2027-and-usenix-security-2027",
           title: 'Glad to serve as part of the TPC of IEEE iThings 2026, ACM...',
           description: "",
-          section: "News",},{id: "news-delighted-to-be-selected-to-return-to-the-heidelberg-laureate-forum-2026-as-an-alumna-i-had-the-opportunity-to-facilitate-and-contribute-to-discussions-with-recipients-of-some-of-the-world-s-most-prestigious-scientific-distinctions-i-e-the-acm-a-m-turing-award-fields-medal-abel-prize-and-nobel-prize-as-well-as-young-researchers-from-around-the-world-on-research-academic-life-and-the-role-of-mathematics-and-computer-science-in-society-some-memories-from-the-week-are-captured-in-the-hlf-photo-album",
-          title: 'Delighted to be selected to return to the Heidelberg Laureate Forum 2026 as...',
+          section: "News",},{id: "news-delighted-to-return-to-the-heidelberg-laureate-forum-2026-as-an-alumna-facilitating-discussions-with-scientific-laureates-and-young-researchers-from-around-the-world-photo-album",
+          title: 'Delighted to return to the Heidelberg Laureate Forum 2026 as an alumna, facilitating...',
+          description: "",
+          section: "News",},{id: "news-honored-to-receive-the-2026-l-oréal-unesco-for-women-in-science-france-young-talents-award-in-the-postdoctoral-category-press-release",
+          title: 'Honored to receive the 2026 L’Oréal–UNESCO For Women in Science France Young Talents...',
           description: "",
           section: "News",},{id: "projects-privacy-preserving-generation-of-realistic-mobile-network-datasets",
           title: 'Privacy-Preserving Generation of Realistic Mobile Network Datasets',
@@ -242,6 +252,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/anne-josiane-kouam-a1b668266", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0002-8803-6256", "_blank");
         },
       },{
         id: 'social-scholar',

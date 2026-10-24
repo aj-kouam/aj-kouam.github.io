@@ -1,32 +1,52 @@
-
 {% assign locations = site.data.collaborations %}
 
-<ul class="advising-list">
-{% for location in locations %}
+{% comment %}
+Collect all students into a single sortable list.
+Each entry contains the start date, institution, and student data.
+{% endcomment %}
 
-  {% if location.institutions %}
-    {% for institution in location.institutions %}
-      {% for student in institution.advising %}
+{% capture all_students %}
+  {% for location in locations %}
+    {% if location.institutions %}
+      {% for institution in location.institutions %}
+        {% for student in institution.advising %}
+          {% if student.active == include.active %}
+            {{ student.start_date }}|{{ student.name }}|{{ student.role }}|{{ institution.name }}|{{ student.end_date | default: 'Present' }}~
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% else %}
+      {% for student in location.advising %}
         {% if student.active == include.active %}
-          <li>
-            <strong>{{ student.name }}</strong>
-            — {{ student.role }},
-            {{ institution.name }}
-          </li>
+          {{ student.start_date }}|{{ student.name }}|{{ student.role }}|{{ location.institution }}|{{ student.end_date | default: 'Present' }}~
         {% endif %}
       {% endfor %}
-    {% endfor %}
-  {% else %}
-    {% for student in location.advising %}
-      {% if student.active == include.active %}
-        <li>
-          <strong>{{ student.name }}</strong>
-          — {{ student.role }},
-          {{ location.institution }}
-        </li>
-      {% endif %}
-    {% endfor %}
-  {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endcapture %}
 
-{% endfor %}
+{% assign students = all_students | strip | split: "~" | sort | reverse %}
+
+<ul class="advising-list">
+  {% for entry in students %}
+    {% assign fields = entry | strip | split: "|" %}
+
+    {% if fields.size >= 5 %}
+      <li>
+        <strong>{{ fields[1] | strip }}</strong><br>
+        {{ fields[2] | strip }}, {{ fields[3] | strip }}<br>
+
+        <small>
+          {{ fields[0] | strip | append: "-01" | date: "%b %Y" }}
+          –
+          {% assign end_date = fields[4] | strip %}
+          {% if end_date == "Present" %}
+            Present
+          {% else %}
+            {{ end_date | append: "-01" | date: "%b %Y" }}
+          {% endif %}
+        </small>
+      </li>
+    {% endif %}
+  {% endfor %}
 </ul>

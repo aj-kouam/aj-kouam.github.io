@@ -28,7 +28,7 @@ latest_posts:
 
 I am a Research Scientist (*Chargée de Recherche*) in the [TRiBE team](https://team.inria.fr/tribe/) at Inria Saclay. My research focuses on privacy and security in data-driven systems, particularly the risks associated with machine learning, human behavioral data, and mobile technologies.
 
-Previously, I was a postdoctoral researcher at TU Berlin, where I remain affiliated with the [Machine Learning and Security](https://mlsec.org/) group. I received my PhD in Computer Science from Institut Polytechnique de Paris, conducting my research at Inria Saclay and École Polytechnique under the supervision of [Aline Carneiro Viana](http://pages.saclay.inria.fr/aline.viana/) and [Alain Tchana](http://perso.ens-lyon.fr/alain.tchana/). I also hold a degree in Computer Engineering from École Nationale Polytechnique de Yaoundé, Cameroon.
+Previously, I was a postdoctoral researcher at TU Berlin, where I remain affiliated with the [Machine Learning and Security](https://mlsec.org/) group. I received my PhD in Computer Science from Institut Polytechnique de Paris, conducting my research at Inria Saclay and École Polytechnique under the supervision of [Aline Carneiro Viana](http://pages.saclay.inria.fr/aline.viana/) and [Alain Tchana](https://lig-membres.imag.fr/tchanaa/index.html). I also hold a degree in Computer Engineering from École Nationale Polytechnique de Yaoundé, Cameroon.
 
 **Research interests**: Privacy & Security · Trustworthy AI · User Data Privacy · Mobile & Data-Driven Systems
  
